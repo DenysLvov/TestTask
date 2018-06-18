@@ -1,0 +1,153 @@
+2018-05-10 12:27:51,432 [main] INFO Google test started - Test testSearchForLink
+2018-05-10 12:27:55,160 [main] INFO Google test started - Link was found on false page.
+2018-05-10 12:33:00,250 [main] INFO  - Test testSearchForLink
+2018-05-10 12:33:03,728 [main] INFO  - Link was found on 2 page.
+2018-05-10 12:33:03,738 [main] INFO  - Link is www.dictionary.com/browse/automated
+2018-05-10 12:34:09,497 [main] INFO  - Test testSearchForLink
+2018-05-10 12:41:01,874 [main] INFO Logger is started - Test testSearchForLink
+2018-05-10 12:41:03,442 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,448 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,464 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,495 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,526 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,564 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,603 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,619 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,636 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,693 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,697 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,727 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,747 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,762 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,764 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,795 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,839 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:03,880 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:04,866 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:04,897 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:04,916 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:04,950 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:04,966 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:04,997 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:05,013 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:05,028 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:05,083 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:05,098 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:05,130 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,119 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,133 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,154 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,185 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,202 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,216 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,248 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,280 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,296 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,311 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:06,327 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,226 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,242 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,257 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,275 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,292 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,314 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,329 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,333 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,360 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,376 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:07,410 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,437 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,454 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,471 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,487 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,505 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,521 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,564 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,580 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,630 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,647 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:08,662 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,511 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,516 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,532 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,564 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,592 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,600 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,616 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,632 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,647 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,677 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:09,695 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,783 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,808 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,824 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,839 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,883 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,912 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,929 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,948 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,965 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:10,999 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:11,969 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:11,972 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:11,988 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,003 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,034 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,057 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,075 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,091 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,106 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,129 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,960 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,971 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,979 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:12,994 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:13,010 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:13,063 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:13,093 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:13,109 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:13,129 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:13,147 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,146 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,160 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,175 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,189 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,206 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,223 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,240 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,263 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,283 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:14,298 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,143 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,149 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,161 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,183 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,199 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,252 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,273 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,283 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,315 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:15,331 [main] INFO Logger is started -  TEST 
+2018-05-10 12:41:16,407 [main] INFO Logger is started - Link was not found. Processed 11 pages.
+2018-05-10 13:17:47,523 [main] INFO Logger is started - Test testSearchForWord
+2018-05-10 13:17:48,817 [main] INFO Logger is started - End of test
+2018-05-10 13:21:35,276 [main] INFO Logger is started - Test testSearchForWord
+2018-05-10 13:22:05,739 [main] INFO Logger is started - Title: What is automation? - The why, what and how of automation and its impact on job market | The Economic Times
+2018-05-10 13:22:05,753 [main] INFO Logger is started - End of test
+2018-05-11 11:05:55,020 [main] INFO Logger is started - Test testSearchForWord
+2018-05-11 11:05:58,358 [main] INFO Logger is started - Title: automation - Google Search
+2018-05-11 11:05:58,370 [main] INFO Logger is started - End of test
+2018-05-11 11:07:39,515 [main] INFO Logger is started - Test testSearchForWord
+2018-05-11 11:07:41,725 [main] INFO Logger is started - Title: automation - Google Search
+2018-05-11 11:07:41,732 [main] INFO Logger is started - End of test
+2018-05-11 11:41:36,116 [main] INFO Logger is started - Test testSearchForWord
+2018-05-11 11:41:38,415 [main] INFO Logger is started - Title: automation - Google Search
+2018-05-11 11:41:38,426 [main] INFO Logger is started - End of test
+2018-06-06 15:20:46,003 [main] INFO WebPage log:  - Test testSearchForWord
+2018-06-06 15:21:17,277 [main] INFO WebPage log:  - End of test
+2018-06-18 12:07:34,821 [main] INFO Test set log:  - Test testSearchForWord
+2018-06-18 12:07:41,487 [main] INFO WebPage log:  - Title: What is automation? - The why, what and how of automation and its impact on job market | The Economic Times
+2018-06-18 12:07:41,497 [main] INFO Test set log:  - End of test
+2018-06-18 12:08:26,074 [main] INFO Test set log:  - Test testSearchForLink
+2018-06-18 12:08:37,543 [main] INFO ResultPage log:  - Link was not found. Processed 10 pages.
+2018-06-18 12:08:37,548 [main] INFO Test set log:  - End of test
