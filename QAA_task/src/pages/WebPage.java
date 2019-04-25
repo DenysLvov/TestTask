@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 public class WebPage {
 
 	private WebDriver driver;
-	private static final Logger LOGGER = LogManager.getLogger("WebPage log: "); 
+	private static Logger log = LogManager.getLogger("WebPage log: "); 
 
 	public WebPage(WebDriver driver) {
 		this.driver = driver;
@@ -17,7 +17,7 @@ public class WebPage {
 	}
 	
 	public String getTitle() {
-		LOGGER.info("Title: "+driver.getTitle());
+		log.info("Title: "+driver.getTitle());
 		return driver.getTitle();
 	}
 	

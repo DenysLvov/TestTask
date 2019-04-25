@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class SearchPg {
 	
 	
-	private By searchFieldId = By.id("lst-ib");
+	private By searchFieldlocator = By.xpath("//input[@title='Search']");
 	private WebDriver driver;
 	
 	public SearchPg(WebDriver driver){
@@ -14,8 +14,8 @@ public class SearchPg {
 	}
 	
 	public ResultsPg searchForWord(WebDriver driver, String word){
-		driver.findElement(searchFieldId).sendKeys(word); 
-    	driver.findElement(searchFieldId).sendKeys(Keys.ENTER);
+		driver.findElement(searchFieldlocator).sendKeys(word); 
+    	driver.findElement(searchFieldlocator).sendKeys(Keys.ENTER);
     	return new ResultsPg(driver);
 	}
 	

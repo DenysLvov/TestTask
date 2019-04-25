@@ -17,9 +17,10 @@ import utils.StringProcessor;
 
 public class ResultsPg {
 
-	private static final Logger LOGGER = LogManager.getLogger("ResultPage log: ");
+	private static Logger log = LogManager.getLogger("ResultPage log: ");
 	private WebDriver driver;
-	private By nextButton = By.cssSelector("#pnnext > span:nth-child(2)");
+	private By linkLocator = By.xpath("//a//h3");
+	private By nextButton = By.xpath("//a/span[text()='Next']");
 	private Navigator navigator;
 	
 	public ResultsPg(WebDriver driver) {
@@ -28,8 +29,9 @@ public class ResultsPg {
 		PropertyConfigurator.configure("Log4j.properties");
 	}
 	
-	public WebPage openLink(WebDriver driver, int linkToOpen, By locator) {
-		new ListProcessor(driver).addWebElemInList(driver, locator).get(linkToOpen).click();		//generates list with links and opens by linkToOpen
+	public WebPage openLink(WebDriver driver, String linkToOpen) {
+		int n = Integer.valueOf(linkToOpen);
+		new ListProcessor(driver).addWebElemInList(driver, linkLocator).get(n).click();		//generates list with links and opens by linkToOpen
 		return new WebPage(driver);
 	}
 	
@@ -40,15 +42,15 @@ public class ResultsPg {
 		List<WebElement> list;
 		boolean isFound=false;
 		StringProcessor sproc =  new StringProcessor();
-		sproc.setRegExp(".*("+searchDomain+").*");
+		sproc.setRegExp(searchDomain);
 		int pageNum=0;
 		while(pageNum <pageCounter){
 			list = new ListProcessor(driver).addWebElemInList(driver, locator);
 			for(WebElement w:list){															//Search word in the list
 				if(sproc.searchWordInStrng(searchDomain, w.getText())){
-					LOGGER.info("Link was found on "+pageNum+" page.");
-					LOGGER.info("Link is "+w.getText());
-					LOGGER.info("Expected link is "+searchDomain);
+					log.info("Link was found on "+pageNum+" page.");
+					log.info("Link is "+w.getText());
+					log.info("Expected link is "+searchDomain);
 					return isFound = true;													//! should return this value
 					}
 				}	//end of for each
@@ -56,10 +58,10 @@ public class ResultsPg {
 					pageNum++;																//Switch to the next Page
 					driver.findElement(nextButton).click();
 					}//end of if
-					else{LOGGER.info("Link was found - "+isFound);
+					else{log.info("Link was found - "+isFound);
 						return isFound;}													//returns false if nothing was found and NEXT is n/a
 		    	}
-		LOGGER.error("Link was not found. Processed "+pageNum+" pages.");
+		log.error("Link was not found. Processed "+pageNum+" pages.");
 		return isFound; 																	//returns false if nothing was found
 		}
 }

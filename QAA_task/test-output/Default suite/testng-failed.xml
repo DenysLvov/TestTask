@@ -6,8 +6,8 @@
       <class name="tests.TestSet">
         <methods>
           <include name="startTest"/>
+          <include name="testSearchForWord" invocation-numbers="0"/>
           <include name="afterMethod"/>
-          <include name="testSearchForLink"/>
           <include name="startDriver"/>
           <include name="tearDown"/>
         </methods>
