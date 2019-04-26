@@ -93,14 +93,10 @@ public class TestSet {
 		log.info("Test testSearchForLink");
 	SearchPg searchPg= new SearchPg(wb.getDriver());
 	ResultsPg resPg;
-	
-	//------Test data------------
-		
-	By expDomainLocator = By.xpath("//div//cite[@class]");
-	
+				
 	//--------------Test----------
 	resPg = searchPg.searchForWord(wb.getDriver(), wordToSearch);
-	assertTrue (resPg.findElemOnPage(numOfPagesToSearch, searchDomain, expDomainLocator));    
+	assertTrue (resPg.findDomain(numOfPagesToSearch, searchDomain));    
    	}
 	    	
 }

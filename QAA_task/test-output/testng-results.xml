@@ -2,40 +2,45 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8066" started-at="2019-04-25T13:57:20Z" finished-at="2019-04-25T13:57:28Z">
+  <suite name="Default suite" duration-ms="7263" started-at="2019-04-26T14:34:57Z" finished-at="2019-04-26T14:35:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8066" started-at="2019-04-25T13:57:20Z" finished-at="2019-04-25T13:57:28Z">
+    <test name="Default test" duration-ms="7263" started-at="2019-04-26T14:34:57Z" finished-at="2019-04-26T14:35:04Z">
       <class name="tests.TestSet">
-        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.TestSet@5340477f]" name="startDriver" is-config="true" duration-ms="58" started-at="2019-04-25T16:57:20Z" finished-at="2019-04-25T16:57:20Z">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.TestSet@5340477f]" name="startDriver" is-config="true" duration-ms="236" started-at="2019-04-26T17:34:57Z" finished-at="2019-04-26T17:34:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method status="PASS" signature="startTest()[pri:0, instance:tests.TestSet@5340477f]" name="startTest" is-config="true" duration-ms="2511" started-at="2019-04-25T16:57:20Z" finished-at="2019-04-25T16:57:22Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:tests.TestSet@5340477f]" name="startTest" is-config="true" duration-ms="2598" started-at="2019-04-26T17:34:57Z" finished-at="2019-04-26T17:35:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="testSearchForWord(java.lang.String, java.lang.String)[pri:0, instance:tests.TestSet@5340477f]" name="testSearchForWord" duration-ms="3104" started-at="2019-04-25T16:57:22Z" data-provider="searchWord" finished-at="2019-04-25T16:57:25Z">
+        <test-method status="PASS" signature="testSearchForLink(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestSet@5340477f]" name="testSearchForLink" duration-ms="4038" started-at="2019-04-26T17:35:00Z" data-provider="test2" finished-at="2019-04-26T17:35:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[automation]]>
+                <![CDATA[Automation]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[1]]>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testautomationday.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchForWord -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSet@5340477f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-25T16:57:25Z" finished-at="2019-04-25T16:57:25Z">
+        </test-method> <!-- testSearchForLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestSet@5340477f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-26T17:35:04Z" finished-at="2019-04-26T17:35:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestSet@5340477f]" name="tearDown" is-config="true" duration-ms="2312" started-at="2019-04-25T16:57:25Z" finished-at="2019-04-25T16:57:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestSet@5340477f]" name="tearDown" is-config="true" duration-ms="301" started-at="2019-04-26T17:35:04Z" finished-at="2019-04-26T17:35:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

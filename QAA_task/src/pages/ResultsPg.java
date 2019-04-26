@@ -21,6 +21,8 @@ public class ResultsPg {
 	private WebDriver driver;
 	private By linkLocator = By.xpath("//a//h3");
 	private By nextButton = By.xpath("//a/span[text()='Next']");
+	private By domainLinkLocator = By.xpath("//div//cite[@class]");
+	
 	private Navigator navigator;
 	
 	public ResultsPg(WebDriver driver) {
@@ -38,14 +40,17 @@ public class ResultsPg {
 /*
  * Returns TRUE if expected element (searchDomain) was found on the web page
  */	
-	public boolean findElemOnPage(int pageCounter, String searchDomain, By locator) {
+	public boolean findDomain(String pageCounter, String searchDomain) {
+		
+		int numPg = Integer.valueOf(pageCounter);
+				
 		List<WebElement> list;
 		boolean isFound=false;
 		StringProcessor sproc =  new StringProcessor();
 		sproc.setRegExp(searchDomain);
 		int pageNum=0;
-		while(pageNum <pageCounter){
-			list = new ListProcessor(driver).addWebElemInList(driver, locator);
+		while(pageNum <numPg){
+			list = new ListProcessor(driver).addWebElemInList(driver, domainLinkLocator);
 			for(WebElement w:list){															//Search word in the list
 				if(sproc.searchWordInStrng(searchDomain, w.getText())){
 					log.info("Link was found on "+pageNum+" page.");

@@ -1,0 +1,5 @@
+2019-04-26 17:35:00,176 [main] INFO Test set log:  - Test testSearchForLink
+2019-04-26 17:35:04,191 [main] INFO ResultPage log:  - Link was found on 2 page.
+2019-04-26 17:35:04,201 [main] INFO ResultPage log:  - Link is https://www.testautomationday.com/
+2019-04-26 17:35:04,201 [main] INFO ResultPage log:  - Expected link is testautomationday.com
+2019-04-26 17:35:04,204 [main] INFO Test set log:  - End of test
