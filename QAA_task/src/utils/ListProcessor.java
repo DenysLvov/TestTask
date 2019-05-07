@@ -1,14 +1,19 @@
-package utils;
-import java.util.ArrayList;
-import java.util.List;
+/*
+ * ListProcessor class.
+ * 
+ * Generates list of WebElements
+ */
+	package utils;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+	import java.util.ArrayList;
+	import java.util.List;
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.WebElement;
 
-public class ListProcessor {
+	public class ListProcessor {
 	
-	private List<WebElement> webElemList = new ArrayList<>();
+	private List<WebElement> webElemList;
 	private	WebDriver driver;
 	
 	public ListProcessor(WebDriver driver){
@@ -17,11 +22,9 @@ public class ListProcessor {
 /*
 * Adds elements (by locator)to the list	
 */
-	public List<WebElement> addWebElemInList(WebDriver driver, By locator){
-		webElemList.clear();									
-		webElemList. addAll(driver.findElements(locator));		//Generates list with links
+	public List<WebElement> listWebElmnts(By locator){
+		webElemList = new ArrayList<>();									
+		webElemList.addAll(driver.findElements(locator));		
 		return webElemList;
-		}
-	
-	
-}
+	}
+	}

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite: Test suite]">
+  <test name="Search Google for &#039;automation&#039;(failed)">
     <classes>
-      <class name="tests.TestSet">
+      <class name="tests.TestGoogleSearch">
         <methods>
-          <include name="startTest"/>
           <include name="testSearchForWord" invocation-numbers="0"/>
-          <include name="afterMethod"/>
-          <include name="startDriver"/>
           <include name="tearDown"/>
+          <include name="openGooglePg"/>
+          <include name="setUpSuite"/>
+          <include name="testSearchForLink" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.TestSet -->
+      </class> <!-- tests.TestGoogleSearch -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Search Google for 'automation'(failed) -->
+</suite> <!-- Failed suite [Suite: Test suite] -->

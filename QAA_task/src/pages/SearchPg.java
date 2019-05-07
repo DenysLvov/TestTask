@@ -1,22 +1,28 @@
-package pages;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+/*
+ * SearchPg class
+ * 
+ * Class describes Search Page
+ */
+	package pages;
+	
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.Keys;
+	import org.openqa.selenium.WebDriver;
+	import utils.DriverContainer;
 
-public class SearchPg {
-	
-	
-	private By searchFieldlocator = By.xpath("//input[@title='Search']");
+	public class SearchPg {
+		
+	private By searchFieldLocator = By.xpath("//input[@title='Search']");
 	private WebDriver driver;
 	
-	public SearchPg(WebDriver driver){
-		this.driver = driver;
+	public SearchPg(){
+		this.driver = DriverContainer.getInstance().getDriver();
 	}
 	
-	public ResultsPg searchForWord(WebDriver driver, String word){
-		driver.findElement(searchFieldlocator).sendKeys(word); 
-    	driver.findElement(searchFieldlocator).sendKeys(Keys.ENTER);
-    	return new ResultsPg(driver);
+	public ResultsPg searchForWord(String word){
+		driver.findElement(searchFieldLocator).sendKeys(word); 
+		driver.findElement(searchFieldLocator).sendKeys(Keys.ENTER);
+		return new ResultsPg();
 	}
 	
 }

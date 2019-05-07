@@ -1,33 +1,44 @@
-package utils;
+/*
+ * Navigator class
+ * 
+ * Contains methods navigate on web page	
+ */
+	package utils;
+	
+	import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.NoSuchElementException;
+	import org.openqa.selenium.WebDriver;
 
-public class Navigator {
+	public class Navigator {
 	private WebDriver driver;
+	private Logger log = LogManager.getLogger("Navigator log: ");
 	
-	public Navigator(WebDriver driver) {
-		this.driver = driver;
+	public Navigator() {
+		this.driver = DriverContainer.getInstance().getDriver();
+		PropertyConfigurator.configure("Log4j.properties");
 	}
 	
-	//Is Element Present	
+/**
+ * Is element present on the page	
+ * 
+ */
 	public boolean isElementPresent(By locator) {
-		 try {
-			 driver.findElement(locator);
-	            return true;
-	        } catch (NoSuchElementException e) {
-	        	System.err.println("No such element "+locator);
-	        	return false;
-	        }
+		try {
+			driver.findElement(locator);
+			return true;
+		} catch (NoSuchElementException e) {
+			log.error("Element wasn't found "+locator);
+	        return false;
+		}
 	}
 	
-	//Timeouts	
-		public static void delay(long delay) {
-			try { 
-				Thread.sleep(delay); 
-				} catch (Exception e) 
-				{ 
-					System.out.println("exception in Navigator.delay()");
-					throw new RuntimeException(e);}
-				}
-}
+	public static void delay(long delay) {
+		try { 
+			Thread.sleep(delay); 
+		} catch (Exception e){ 
+		throw new RuntimeException(e);}
+		}
+	}

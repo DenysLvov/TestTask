@@ -3,3 +3,96 @@
 2019-04-26 17:35:04,201 [main] INFO ResultPage log:  - Link is https://www.testautomationday.com/
 2019-04-26 17:35:04,201 [main] INFO ResultPage log:  - Expected link is testautomationday.com
 2019-04-26 17:35:04,204 [main] INFO Test set log:  - End of test
+2019-05-07 10:42:09,874 [main] INFO Test1 log:  - Start of test
+2019-05-07 10:42:09,891 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 10:42:13,292 [main] INFO WebPage log:  - Title: Automation - Wikipedia
+2019-05-07 10:42:13,338 [main] INFO Test1 log:  - End of test
+2019-05-07 10:44:28,229 [main] INFO Test1 log:  - Start of test
+2019-05-07 10:44:28,236 [main] INFO Test1 log:  - Test testSearchForLink
+2019-05-07 10:44:33,253 [main] INFO ResultPage log:  - Link was found on 3 page.
+2019-05-07 10:44:33,263 [main] INFO ResultPage log:  - Link is https://www.testautomationday.com/
+2019-05-07 10:44:33,263 [main] INFO ResultPage log:  - Expected link is testautomationday.com
+2019-05-07 10:44:33,266 [main] INFO Test1 log:  - End of test
+2019-05-07 10:51:22,060 [main] INFO Test1 log:  - Start of test
+2019-05-07 10:51:22,067 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 10:51:24,402 [main] INFO WebPage log:  - Title: Automation - Wikipedia
+2019-05-07 10:51:24,482 [main] INFO Test1 log:  - End of test
+2019-05-07 11:09:34,844 [main] INFO Test1 log:  - Start test
+2019-05-07 11:09:34,869 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 11:09:38,648 [main] INFO WebPage log:  - Title: Automation - Wikipedia
+2019-05-07 11:09:38,661 [main] INFO Test1 log:  - End test
+2019-05-07 11:13:21,134 [main] INFO Test1 log:  - Start test
+2019-05-07 11:13:21,152 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 11:13:21,156 [main] INFO Test1 log:  - End test
+2019-05-07 11:15:58,360 [main] INFO Test1 log:  - Start test
+2019-05-07 11:15:58,368 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 11:15:58,373 [main] INFO Test1 log:  - End test
+2019-05-07 11:25:38,872 [main] INFO Test1 log:  - Start test
+2019-05-07 11:25:38,880 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 11:25:38,888 [main] INFO Test1 log:  - End test
+2019-05-07 11:32:16,828 [main] INFO Test1 log:  - Start test
+2019-05-07 11:32:16,839 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 11:32:16,843 [main] INFO Test1 log:  - End test
+2019-05-07 11:41:11,251 [main] INFO Test1 log:  - Start test
+2019-05-07 11:41:11,259 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 11:41:11,263 [main] INFO Test1 log:  - End test
+2019-05-07 11:42:28,251 [main] INFO Test1 log:  - Start test
+2019-05-07 11:42:28,260 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 11:42:30,287 [main] INFO Test1 log:  - End test
+2019-05-07 11:45:22,952 [main] INFO Test1 log:  - Start test
+2019-05-07 11:45:22,957 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 11:45:23,075 [main] INFO Test1 log:  - End test
+2019-05-07 12:28:06,916 [main] INFO Test1 log:  - Start test
+2019-05-07 12:28:06,925 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 12:28:07,031 [main] INFO Test1 log:  - End test
+2019-05-07 12:31:02,661 [main] INFO Test1 log:  - Start test
+2019-05-07 12:31:02,671 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 12:31:02,779 [main] INFO Test1 log:  - End test
+2019-05-07 12:33:12,639 [main] INFO Test1 log:  - Start test
+2019-05-07 12:33:12,645 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 12:33:12,802 [main] INFO Test1 log:  - End test
+2019-05-07 12:34:46,277 [main] INFO Test1 log:  - Start test
+2019-05-07 12:34:46,286 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 12:34:46,392 [main] INFO Test1 log:  - End test
+2019-05-07 12:35:26,426 [main] INFO Test1 log:  - Start test
+2019-05-07 12:35:26,432 [main] INFO Test1 log:  - Test testSearchForLink
+2019-05-07 12:35:26,435 [main] INFO Test1 log:  - End test
+2019-05-07 12:47:53,993 [main] INFO Test1 log:  - Start test
+2019-05-07 12:47:54,004 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 12:47:54,114 [main] INFO Test1 log:  - End test
+2019-05-07 12:52:29,106 [main] INFO Test1 log:  - Start test
+2019-05-07 12:52:29,112 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 12:52:29,228 [main] INFO Test1 log:  - End test
+2019-05-07 13:00:11,570 [main] INFO Test1 log:  - Start test
+2019-05-07 13:00:11,576 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:00:11,691 [main] INFO Test1 log:  - End test
+2019-05-07 13:02:09,826 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:06:16,926 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:07:53,229 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:09:18,374 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:16:53,401 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:17:41,049 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:21:05,998 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:23:08,465 [main] INFO Test1 log:  - Start test
+2019-05-07 13:23:08,470 [main] INFO Test1 log:  - Test testSearchForLink
+2019-05-07 13:23:08,474 [main] INFO Test1 log:  - End test
+2019-05-07 13:26:55,147 [main] INFO Test1 log:  - Test testSearchForLink
+2019-05-07 13:28:36,822 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:30:11,097 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:33:38,233 [main] INFO Test1 log:  - Test testSearchForWord
+2019-05-07 13:40:31,942 [main] INFO Test log:  - Test testSearchForLink
+2019-05-07 13:40:32,275 [main] INFO Test log:  - Test testSearchForWord
+2019-05-07 13:40:32,833 [main] INFO Test1 log:  - Test testSearchForLink
+2019-05-07 13:41:31,173 [main] INFO Test log:  - Test testSearchForLink
+2019-05-07 13:41:31,547 [main] INFO Test log:  - Test testSearchForWord
+2019-05-07 13:42:52,922 [main] INFO Test log:  - Test testSearchForLink
+2019-05-07 13:42:53,294 [main] INFO Test log:  - Test testSearchForWord
+2019-05-07 13:44:30,075 [main] INFO Test log:  - Test testSearchForWord
+2019-05-07 13:44:33,576 [main] INFO WebPage log:  - Title is: Automation - Wikipedia
+2019-05-07 13:44:34,045 [main] INFO Test log:  - Test testSearchForLink
+2019-05-07 13:44:37,705 [main] INFO ResultPage log:  - Link was found on 2 page.
+2019-05-07 13:44:37,717 [main] INFO ResultPage log:  - Link is https://www.testautomationday.com/
+2019-05-07 13:44:37,717 [main] INFO ResultPage log:  - Expected link is testautomationday.com
+2019-05-07 18:23:34,727 [main] INFO Test log:  - Test testSearchForWord
+2019-05-07 18:23:37,161 [main] INFO Test log:  - Test testSearchForLink
+2019-05-07 18:23:38,274 [main] INFO ResultPage log:  - Link was found - false
