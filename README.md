@@ -1,5 +1,6 @@
 # TestTask
-Testing task for Automation Engineer 
+Testing task for Automation Engineer.
+
 Next tests were implemented:
 1.	Test #1. Open Google. Search for “automation”. Open the first link on search results page. Verify that title contains searched word
 2.	Test #2. Open Google. Search for “automation”. Verify that there is expected domain (“testautomationday.com”) on search results  pages (page: 1-5).
